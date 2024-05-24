@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/IMGCaratula"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:background="@drawable/Ola" />
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/Descubre"/>
+
+
+    <ImageView
+        android:layout_width="396dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/HeroicComics" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonI"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:text="Ingresar"
+        android:textStyle="bold"
+        android:backgroundTint="#F61414"/>
+
+
+
+
+</LinearLayout>
